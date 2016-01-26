@@ -2,11 +2,21 @@
 build/
 bin/
 
+*.class
+
 #IntelliJ IDEA
 .idea
 *.ipr
 *.iws
 *.iml
+
+#JAVA Package File
+*.jar
+*.war
+*.ear
+
+#Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
 # Ignore Gradle GUI config
 gradle-app.setting
